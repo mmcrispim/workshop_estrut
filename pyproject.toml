@@ -17,7 +17,6 @@ pydocstyle = "^6.3.0"
 pip-audit = "^2.7.2"
 mkdocs = "^1.5.3"
 
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
