@@ -3,17 +3,20 @@ import os # biblioteca para manipular arquivos e pastas
 import glob # biblioteca para listar arquivos
 from typing import List
 
-"""
-1. função para ler os arquivos de uma pasta data/input
-2. retornar uma lista de dataframes
 
-args: input_path (str): caminho da pasta com os arquivos
-return: lista de dataframes
-"""
 
 # path = "data/input"
 
 def extract_from_excel(path: str) -> list[pd.DataFrame]:
+
+    """
+    1. função para ler os arquivos de uma pasta data/input
+    2. retornar uma lista de dataframes
+
+    args: input_path (str): caminho da pasta com os arquivos
+    return: lista de dataframes
+    """
+
     all_files = glob.glob(os.path.join(path, "*.xlsx"))
 
     # df_from_each_file = (pd.read_excel(f) for f in all_files)
