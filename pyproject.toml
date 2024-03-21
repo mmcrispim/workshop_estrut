@@ -17,6 +17,10 @@ pydocstyle = "^6.3.0"
 pip-audit = "^2.7.2"
 mkdocs = "^1.5.3"
 taskipy = "^1.12.2"
+mkdocstrings-python = "^1.9.0"
+pygments = "^2.17.2"
+mkdocs-material = "^9.5.14"
+pymdown-extensions = "^10.7.1"
 
 [build-system]
 requires = ["poetry-core"]
