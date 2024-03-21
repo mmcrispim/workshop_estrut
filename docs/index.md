@@ -2,12 +2,19 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## Workflow
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+```mermaid
+flowchart TB
+A → C
+A → D
+B → C
+B → D
+```
+
+# Função de transformação de dados
+
+### ::: app.pipeline.extract.extract_from_excel
 
 ## Project layout
 

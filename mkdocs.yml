@@ -1,18 +1,19 @@
 site_name: projeto ETL - Workshop
 theme: 
-  name: material # or other theme
-  palette:
-    primary: blue
-  language: pt
+    name: material # or other theme
+    palette:
+      primary: blue
+    language: pt-BR
 
 repo_name: "mmcrispim/workshop_estrut"
 repo_url: "https://github.com/mmcrispim/workshop_estrut"
+edir_uri: tree/main/docs
 
 markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
+    - pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+          - class: mermaid
 
 plugins:
   - search
