@@ -1,5 +1,5 @@
 site_name: projeto ETL - Workshop
-theme: 
+theme:
     name: material # or other theme
     palette:
       primary: blue
