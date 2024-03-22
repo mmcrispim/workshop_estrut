@@ -6,14 +6,14 @@ theme:
     language: pt-BR
 
 repo_name: "mmcrispim/workshop_estrut"
-repo_url: "https://github.com/mmcrispim/workshop_estrut"
-edir_uri: tree/main/docs
+repo_url: "https://github.com.io/mmcrispim/workshop_estrut"
+edit_uri: tree/main/docs
 
 markdown_extensions:
     - pymdownx.superfences:
         custom_fences:
           - name: mermaid
-          - class: mermaid
+            class: mermaid
 
 plugins:
   - search
